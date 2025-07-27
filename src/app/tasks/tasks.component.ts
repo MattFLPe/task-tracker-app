@@ -7,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrl: './tasks.component.css'
 })
 export class TasksComponent {
-
+  tasks = [
+    {
+      id: 1,
+      title: "Clean the room",
+      completed: false
+    }
+  ]
 }
